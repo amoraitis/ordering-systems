@@ -9,5 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Quartz" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\OrderingSystem.Shared.Infrastructure\OrderingSystem.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\Shared\OrderingSystem.Shared.Services\OrderingSystem.Shared.Services.csproj" />
   </ItemGroup>
 </Project>
